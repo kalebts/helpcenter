@@ -193,6 +193,7 @@ a, a:hover, a:focus {
 
 #docsSearch h1 {
   color: black;
+  margin-top: 5%;
 }
 
 .lp {
@@ -337,6 +338,22 @@ a, a:hover, a:focus {
 .printArticle {
   display: none;
 }
+
+.category-list .category {
+    background-color: #fff;
+    background-position: top 20px center !important;
+    background-repeat: no-repeat !important;
+    background-size: 100px auto !important;
+    box-shadow: 0 7px 4px -5px rgba(0, 0, 0, 0.05);
+    box-sizing: border-box;
+    min-height: 183px;
+    padding: 170px 20px 15px;
+    position: relative;
+    width: 31.5%;
+    transition: all 0.2s;
+    border-radius: 20px;
+}
+
 /* Data for Admins (use your actual category names here in the comment to make it easier) */
 #category-55 {
 	background-image: url("https://raw.githubusercontent.com/meganpappalardo/helpcenter/main/Untitled%20design%20(29).png") no-repeat;
